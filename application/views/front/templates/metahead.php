@@ -38,13 +38,7 @@
         <!--<script type="text/javascript" src="/js/library.js"></script>-->
         <script>
             $(document).ready(function () {
-
-                $('#get_student_ticket').colorbox({
-                    opacity: 0.5,
-                    width: "600",
-                    height: "360",
-                    close: "Закрыть"
-                });
+                $(".video_block .img_link,.video_block .title_link").colorbox({iframe: true, innerWidth: 700, innerHeight: 500});
             });
 
             $(function () {

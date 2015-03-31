@@ -40,17 +40,14 @@ class Videoblog extends CI_Controller {
         if (!$this->session->userdata('logged')) {
             redirect('admin/login');
         }
-        global $object; $object = 'blog';
+        global $object;
+        $object = 'videoblog';
         $data['title'] = 'Административная панель';
         $blog = $this->videoblog_model->get_blogs($id);
         $data['blog'] = $blog;
-        $tags = $this->main_model->get_tags($id);
-        $data['tags'] = $tags;
-        if ($this->input->post('do') == 'blogEdit') {
+        if ($this->input->post('do') == 'videoblogEdit') {
             $this->form_validation->set_rules('name', 'Заголовок', 'required|trim|xss_clean');
-            $this->form_validation->set_rules('title', 'Мета title', 'trim|xss_clean');
-            $this->form_validation->set_rules('desc', 'Мета description', 'trim|xss_clean');
-            $this->form_validation->set_rules('keyw', 'Мета keywords', 'trim|xss_clean');
+            $this->form_validation->set_rules('youtube', 'YouTube', 'required|trim|xss_clean');
             $this->form_validation->set_rules('date', 'Дата публикации', 'trim|xss_clean');
 
             $this->form_validation->set_error_delimiters('<span class="label label-danger">', '</span>');
@@ -59,71 +56,21 @@ class Videoblog extends CI_Controller {
                 $this->load->view('admin/templates/metahead', $data);
                 $this->load->view('admin/templates/navbar', $data);
                 $this->load->view('admin/pages/settings/templates/left-nav', $data);
-                $this->load->view('admin/pages/settings/blog/edit', $data);
+                $this->load->view('admin/pages/settings/videoblog/edit', $data);
                 $this->load->view('admin/templates/footer', $data);
             } else {
-                $config['upload_path'] = './images/blog';
-                $config['allowed_types'] = 'gif|jpg|png|jpeg|JPG|JPEG';
-                $config['max_size'] = '5120';
-                $config['encrypt_name'] = true;
-
-                $this->load->library('upload', $config);
-
-                $image_data = $this->upload->data();
-                if ($_FILES['image']['name'] == '') {
-                    if ($this->input->post('tags')) {
-                        foreach ($this->input->post('tags') as $tag) {
-                            $this->main_model->set_tag($tag, $id, $object);
-                        }
-                    }
-                    $this->videoblog_model->update_blog($id);
-                    $arr = array(
-                        'error' => '<div class="alert alert-success" role="alert"><strong>Успех! </strong>Пост был успешно обновлен!</div>'
-                    );
-                    $this->session->set_userdata($arr);
-                    redirect('admin/settings/blog/edit/' . $blog['id']);
-                } else {
-                    if (!$this->upload->do_upload('image')) {
-                        $this->session->set_userdata('error', $this->upload->display_errors('<span class="label label-danger">', '</span>'));
-                        redirect('admin/settings/blog/edit/' . $blog['id']);
-                    } else {
-                        $blog = $this->videoblog_model->get_blogs($id);
-                        if (file_exists('images/blog/' . $blog['image'])) {
-                            unlink('images/blog/' . $blog['image']);
-                            if ($this->input->post('tags')) {
-                                foreach ($this->input->post('tags') as $tag) {
-                                    $this->main_model->set_tag($tag, $id, $object);
-                                }
-                            }
-                            $image_data = $this->upload->data();
-                            $this->videoblog_model->update_blog($id, $image_data['file_name']);
-                            $arr = array(
-                                'error' => '<div class="alert alert-success" role="alert"><strong>Успех! </strong>Пост был успешно обновлен!</div>'
-                            );
-                            $this->session->set_userdata($arr);
-                            redirect('admin/settings/blog/edit/' . $blog['id']);
-                        } else {
-                            if ($this->input->post('tags')) {
-                                foreach ($this->input->post('tags') as $tag) {
-                                    $this->videoblog_model->set_tag($tag, $id, $object);
-                                }
-                            }
-                            $image_data = $this->upload->data();
-                            $this->videoblog_model->update_blog($id, $image_data['file_name']);
-                            $arr = array(
-                                'error' => '<div class="alert alert-success" role="alert"><strong>Успех! </strong>Пост был успешно обновлен!</div>'
-                            );
-                            $this->session->set_userdata($arr);
-                            redirect('admin/settings/blog/edit/' . $blog['id']);
-                        }
-                    }
-                }
+                $this->videoblog_model->update_blog($id);
+                $arr = array(
+                    'error' => '<div class="alert alert-success" role="alert"><strong>Успех! </strong>Пост был успешно обновлен!</div>'
+                );
+                $this->session->set_userdata($arr);
+                redirect('admin/settings/videoblog/edit/' . $blog['id']);
             }
         } else {
             $this->load->view('admin/templates/metahead', $data);
             $this->load->view('admin/templates/navbar', $data);
             $this->load->view('admin/pages/settings/templates/left-nav', $data);
-            $this->load->view('admin/pages/settings/blog/edit', $data);
+            $this->load->view('admin/pages/settings/videoblog/edit', $data);
             $this->load->view('admin/templates/footer', $data);
         }
     }
@@ -142,12 +89,9 @@ class Videoblog extends CI_Controller {
             redirect('admin/login');
         }
         $data['title'] = 'Административная панель';
-        if ($this->input->post('do') == 'blogAdd') {
+        if ($this->input->post('do') == 'videoblogAdd') {
             $this->form_validation->set_rules('name', 'Заголовок', 'required|trim|xss_clean');
-            $this->form_validation->set_rules('url', 'ЧПУ', 'required|trim|xss_clean|callback_check_url');
-            $this->form_validation->set_rules('title', 'Мета title', 'trim|trim|xss_clean');
-            $this->form_validation->set_rules('desc', 'Мета description', 'trim|xss_clean');
-            $this->form_validation->set_rules('keyw', 'Мета keywords', 'trim|xss_clean');
+            $this->form_validation->set_rules('youtube', 'YouTube', 'required|trim|xss_clean');
             $this->form_validation->set_rules('date', 'Дата публикации', 'trim|xss_clean');
 
             $this->form_validation->set_error_delimiters('<span class="label label-danger">', '</span>');
@@ -156,37 +100,22 @@ class Videoblog extends CI_Controller {
                 $this->load->view('admin/templates/metahead', $data);
                 $this->load->view('admin/templates/navbar', $data);
                 $this->load->view('admin/pages/settings/templates/left-nav', $data);
-                $this->load->view('admin/pages/settings/blog/add', $data);
+                $this->load->view('admin/pages/settings/videoblog/add', $data);
                 $this->load->view('admin/templates/footer', $data);
             } else {
-                $config['upload_path'] = './images/blog';
-                $config['allowed_types'] = 'gif|jpg|png|jpeg|JPG|JPEG';
-                $config['max_size'] = '5120';
-                $config['encrypt_name'] = true;
+                $this->videoblog_model->set_blog();
 
-                $this->load->library('upload', $config);
-
-                $image_data = $this->upload->data();
-                if (!$this->upload->do_upload('image')) {
-
-                    $this->session->set_userdata('error', $this->upload->display_errors('<span class="label label-danger">', '</span>'));
-                    redirect('admin/settings/blog/add');
-                } else {
-                    $image_data = $this->upload->data();
-                    $this->videoblog_model->set_blog($image_data['file_name']);
-
-                    $arr = array(
-                        'error' => '<div class="alert alert-success" role="alert"><strong>Успех! </strong>Пост был успешно добавлен!</div>'
-                    );
-                    $this->session->set_userdata($arr);
-                    redirect('admin/settings/blog/add');
-                }
+                $arr = array(
+                    'error' => '<div class="alert alert-success" role="alert"><strong>Успех! </strong>Пост был успешно добавлен!</div>'
+                );
+                $this->session->set_userdata($arr);
+                redirect('admin/settings/videoblog/add');
             }
         } else {
             $this->load->view('admin/templates/metahead', $data);
             $this->load->view('admin/templates/navbar', $data);
             $this->load->view('admin/pages/settings/templates/left-nav', $data);
-            $this->load->view('admin/pages/settings/blog/add', $data);
+            $this->load->view('admin/pages/settings/videoblog/add', $data);
             $this->load->view('admin/templates/footer', $data);
         }
     }
@@ -197,14 +126,8 @@ class Videoblog extends CI_Controller {
         }
         $blog = $this->videoblog_model->get_blogs($id);
         if (count($blog) > 0) {
-            if (file_exists('images/blog/' . $blog['image'])) {
-                $this->videoblog_model->delete_blog($id);
-                unlink('images/blog/' . $blog['image']);
-                redirect($this->agent->referrer());
-            } else {
-                $this->videoblog_model->delete_blog($id);
-                redirect($this->agent->referrer());
-            }
+            $this->videoblog_model->delete_blog($id);
+            redirect($this->agent->referrer());
         } else {
             die('Поста не существует!');
         }

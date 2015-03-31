@@ -8,7 +8,7 @@
             ?>
             <div class="row">
                 <div class="col-md-3">
-                    <img width="200" src="/images/videoblog/<?= $videoblog['image'] ?>">
+                    <img width="200" src="http://img.youtube.com/vi/<?= $videoblog['youtube'] ?>/0.jpg">
                 </div>
                 <div class="col-md-6">
                     <b><?= $videoblog['name'] ?></b>
@@ -26,12 +26,6 @@
                         <a href="/admin/settings/videoblog/edit/<?= $videoblog['id'] ?>"><span class="glyphicon glyphicon-edit"></span></a>
                         <a href="/admin/settings/videoblog/delete/<?= $videoblog['id'] ?>"><span class="glyphicon glyphicon-trash"></span></a>
                     </span>
-                </div>
-                <div class="col-md-9">
-                    <p><?= 'ЧПУ: <i>' . $videoblog['url'] . '</i>' ?></p>
-                </div>
-                <div class="col-md-9">
-                    <p><?= mb_strimwidth(strip_tags($videoblog['text']), 0, 300, "..."); ?></p>
                 </div>
                 <div class="col-md-9" style="float:right;">
                     <span class="glyphicon glyphicon-eye-open"></span><span style="margin-left: 10px;"><?= $videoblog['views'] ?></span>

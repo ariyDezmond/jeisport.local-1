@@ -145,7 +145,6 @@ $route['admin/settings/videoblog/up/(:num)'] = 'admin/videoblog/up/$1';
 $route['admin/settings/videoblog/down/(:num)'] = 'admin/videoblog/down/$1';
 $route['admin/settings/videoblog/add'] = 'admin/videoblog/add';
 
-
 $route['admin/settings/news-categories'] = 'admin/newscategories/page/newscategories';
 $route['admin/settings/news-categories/edit/(:num)'] = 'admin/newscategories/edit/$1';
 $route['admin/settings/news-categories/delete/(:num)'] = 'admin/newscategories/delete/$1';
@@ -220,6 +219,8 @@ $route['banners/(:num)'] = 'front/pages/bannerClicksCount/$1';
 $route['banners/incviews'] = 'front/pages/incviews';
 
 $route['update_banner_views'] = 'front/pages/update_banner_views';
+
+$route['videoblog/(:num)'] = 'front/pages/getVideo/$1';
 
 $route['(:any)/(:any)/(:num)'] = 'front/pages/points/$1/$2/$3';
 $route['(:any)/(:any)/(:any)'] = 'front/pages/point/$1/$2/$3';

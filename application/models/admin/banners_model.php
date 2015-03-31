@@ -52,7 +52,6 @@ class Banners_model extends CI_Model {
         if ($pos) {
             $this->db->order_by('RAND ()');
             $query = $this->db->query("SELECT * FROM banners WHERE ((views < max_shows and payment = 'shows') or (clicks < max_clicks and payment = 'clicks')) AND active = 'on' AND status = 'on' AND pos = '$pos' ORDER BY RAND()");
-//            $query = $this->db->get_where('banners', array('pos' => $pos, 'active' => 'on', 'status' => 'on'));
             return $query->row_array();
         }
     }

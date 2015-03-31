@@ -157,13 +157,11 @@
                 <li><a alt="Перейти на главную" title="Перейти на главную" href="/">Главная</a></li>
                 <?php
                 foreach ($categories as $category):
-                    if ($category['active'] == 'on'):
-                        ?>
-                        <li>
-                            <a alt="Перейти <?= lcfirst($category['name']) ?>" title="Перейти <?= $category['name'] ?>" style="background-image: #00a68e url(/images/categories/<?= $category['image'] ?>) center 22px no-repeat;" href="<?= '/' . $category['url'] ?>/"><?= $category['name'] ?></a>
-                        </li>
-                        <?php
-                    endif;
+                    ?>
+                    <li>
+                        <a alt="Перейти <?= lcfirst($category['name']) ?>" title="Перейти <?= $category['name'] ?>" style="background-image: #00a68e url(/images/categories/<?= $category['image'] ?>) center 22px no-repeat;" href="<?= '/' . $category['url'] ?>/"><?= $category['name'] ?></a>
+                    </li>
+                    <?php
                 endforeach;
                 ?>
             </ul><!-- navigation -->

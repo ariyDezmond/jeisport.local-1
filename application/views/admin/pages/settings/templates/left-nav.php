@@ -40,11 +40,11 @@
             echo 'active';
         }
         ?>">Баннеры</a>
-<!--        <a href="/admin/settings/videoblog" class="list-group-item <?php
+        <a href="/admin/settings/videoblog" class="list-group-item <?php
         if ($this->uri->segment(3) == 'videoblog') {
             echo 'active';
         }
-        ?>">Видео блог</a>-->
+        ?>">Видео блог</a>
         <a href="/admin/settings/maintext" class="list-group-item <?php
         if ($this->uri->segment(3) == 'maintext') {
             echo 'active';

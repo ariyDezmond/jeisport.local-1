@@ -104,43 +104,18 @@
         <h3 class="block-title">Видео блог от Jeisport</h3><!-- title -->
         <div class="flexslider">
             <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 800%; -webkit-transition-duration: 0s; transition-duration: 0s; -webkit-transform: translate3d(-1000px, 0px, 0px); transform: translate3d(-1000px, 0px, 0px);">
-                    <li class="clone" aria-hidden="true" style="width: 1000px; float: left; display: block;">
-                        <div class="video_block">
-                            <a href="#" class="img_link"><img src="img/video-img.jpg" alt="" draggable="false"></a>
-                            <a href="#" class="title_link">Лучшие бои Майка Тайсона</a>
-                        </div>
-                        <div class="video_block">
-                            <a href="#" class="img_link"><img src="img/video-img.jpg" alt="" draggable="false"></a>
-                            <a href="#" class="title_link">Мультфильм про звезд футбола</a>
-                        </div>
-                        <div class="video_block">
-                            <a href="#" class="img_link"><img src="img/video-img.jpg" alt="" draggable="false"></a>
-                            <a href="#" class="title_link">Трансформация - Марк Фитт</a>
-                        </div>
-                        <div class="video_block">
-                            <a href="#" class="img_link"><img src="img/video-img.jpg" alt="" draggable="false"></a>
-                            <a href="#" class="title_link">Фитнесс для девушек в спорт зале</a>
-                        </div>
-                    </li>
-
-                    <li class="flex-active-slide" style="width: 1000px; float: left; display: block;">
-                        <div class="video_block">
-                            <a href="#" class="img_link"><img src="img/video-img.jpg" alt="" draggable="false"></a>
-                            <a href="#" class="title_link">Лучшие бои Майка Тайсона</a>
-                        </div>
-                        <div class="video_block">
-                            <a href="#" class="img_link"><img src="img/video-img.jpg" alt="" draggable="false"></a>
-                            <a href="#" class="title_link">Мультфильм про звезд футбола</a>
-                        </div>
-                        <div class="video_block">
-                            <a href="#" class="img_link"><img src="img/video-img.jpg" alt="" draggable="false"></a>
-                            <a href="#" class="title_link">Трансформация - Марк Фитт</a>
-                        </div>
-                        <div class="video_block">
-                            <a href="#" class="img_link"><img src="img/video-img.jpg" alt="" draggable="false"></a>
-                            <a href="#" class="title_link">Фитнесс для девушек в спорт зале</a>
-                        </div>
-                    </li>
+                    <?php foreach ($videoblogs as $vb): ?>
+                        <li class="clone" aria-hidden="true" style="width: 1000px; float: left; display: block;">
+                            <?php for ($i = 0; $i < 4; $i++): ?>
+                                <?php if (isset($vb[$i])): ?>
+                                    <div class="video_block">
+                                        <a href="/videoblog/<?= $vb[$i]['id'] ?>" class="img_link"><img src="http://img.youtube.com/vi/<?= $vb[$i]['youtube'] ?>/0.jpg" alt="" draggable="false"></a>
+                                        <a href="/videoblog/<?= $vb[$i]['id'] ?>" class="title_link"><?= $vb[$i]['name'] ?></a>
+                                    </div>
+                                <?php endif; ?>
+                            <?php endfor; ?>
+                        </li>
+                    <?php endforeach; ?>
                 </ul>
             </div>
             <ol class="flex-control-nav flex-control-paging">

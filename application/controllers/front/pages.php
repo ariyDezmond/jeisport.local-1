@@ -14,6 +14,11 @@ class Pages extends CI_Controller {
         $this->form_validation->set_message('valid_email', 'Поле "%s" должно содержать валидный E-mail адрес');
     }
 
+    public function getVideo($video_id) {
+        $data['video'] = $video = $this->videoblog_model->get_blogs($video_id);
+        $this->load->view('front/templates/videoblog', $data);
+    }
+
     public function update_banner_views() {
         $id = $this->input->post('id');
         $banner = $this->banners_model->get_banners($id);
@@ -24,7 +29,11 @@ class Pages extends CI_Controller {
     }
 
     public function view($page = 'home') {
+        $categories = $this->categories_model->get_categories_for_front();
+        $data['categories'] = $categories;
+        
         $data['is_browser'] = $this->agent->is_browser();
+        
         if ($this->input->get('sid') != '') {
             $this->session->set_userdata('phpbb_sid', $this->input->get('sid'));
         }
@@ -34,15 +43,15 @@ class Pages extends CI_Controller {
             $this->load->view('front/pages/404', $data);
         }
 
+        $vblogs = $this->videoblog_model->get_blogs();
+        $data['videoblogs'] = array_chunk($vblogs, 4);
+
         if ($page == 'home') {
             $banner = $this->banners_model->get_banner_for_front('main');
         }
         $data['title'] = 'Спортивные клубы Москвы, спортклуб в Москве — лучшие спортклубы: каталог (Москва)';
         $data['metadesc'] = 'На нашем сайте Вы найдете лучшие спортивные клубы Москвы на любой вкус. Каталог спортклубов в городе Москве. Цены.';
         $data['metakeyw'] = 'спортивные клубы, спортклубы, лучший спортклуб, спортклубы Москва, спортивные клубы Москва, каталог, цены, отзывы';
-
-        $categories = $this->categories_model->get_categories_for_front();
-        $data['categories'] = $categories;
 
         $subways = $this->subways_model->get_subways_for_point();
         $data['subways'] = $subways;
@@ -59,7 +68,6 @@ class Pages extends CI_Controller {
         if ($page == 'about') {
             $data['about_text'] = $this->main_model->get_about();
         }
-
         $data['banner'] = $this->banners_model->get_banner_for_front('main');
 
         $this->load->view('front/templates/metahead', $data);

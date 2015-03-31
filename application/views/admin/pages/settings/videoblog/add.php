@@ -1,15 +1,15 @@
 <div class="col-md-10">
     <div class="row">
         <div class="col-md-12">
-            <a href="/admin/settings/blog">
+            <a href="/admin/settings/videoblog">
                 <button type="button" class="btn btn-default btn-default"><span class='glyphicon glyphicon-step-backward'></span> Назад к списку</button>
             </a>
         </div>
     </div>
     <div class="page-header">
-        <h2>Добавление поста в блог</h2>
+        <h2>Добавление поста в видео блог</h2>
     </div>
-    <?= form_open_multipart('admin/settings/blog/add') ?>
+    <?= form_open_multipart('admin/settings/videoblog/add') ?>
     <div class="row" style="margin-bottom: 5px;">
         <div class="col-md-12">
             <?= validation_errors(); ?>
@@ -24,23 +24,17 @@
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <label for="image">Изображение</label><br/>
-                <input name='image' type="file" class="btn-file" id="image" required>
-                <p class="help-block">Выберите фото</p>
-            </div>
-            <div class="form-group">
                 <label for="name">Название</label>
-                <input name='name' value="<?= set_value('name') ?>" type="text" class="form-control name" id="name" placeholder="Название" required>
+                <input name='name' value="<?= set_value('name') ?>" type="text" class="form-control" id="name" placeholder="Название" required>
             </div>
             <div class="form-group">
-                <label for="url">ЧПУ</label>
-                <input name='url' value="<?= set_value('url') ?>" type="text" class="form-control name_translit" id="url" placeholder="Чпу" required>
+                <label for="youtube">Ключ видео с YouTube</label>
+                <input name='youtube' value="<?= set_value('youtube') ?>" type="text" class="form-control" id="youtube" placeholder="bkE906J4CDo" required>
             </div>
-
             <div class="form-group">
                 <label for="date">Дата публикаци</label>
                 <div class='input-group date' id='datetimepicker1'>
-                    <input name="date" id="date" type='text' value="<?= set_value('date') ?>" class="form-control" required />
+                    <input name="date" id="date" type='text' value="<?= date('d.m.Y H:i') ?>" class="form-control" required />
                     <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
                 </div>
             </div>
@@ -51,18 +45,6 @@
             </script>
         </div>
         <div class="col-md-6">
-            <div class="form-group">
-                <label for="title">Мета title</label>
-                <input name='title' value="<?= set_value('title') ?>" type="text" class="form-control" id="title" placeholder="">
-            </div>
-            <div class="form-group">
-                <label for="desc">Мета description</label>
-                <textarea name='desc' rows="5" class="form-control" id="desc" placeholder=""><?= set_value('desc') ?></textarea>
-            </div>
-            <div class="form-group">
-                <label for="keyw">Мета keywords</label>
-                <textarea name='keyw' rows="3" class="form-control" id="keyw" placeholder=""><?= set_value('keyw') ?></textarea>
-            </div>
             <div class="checkbox">
                 <label>
                     <input name='active' type="checkbox"> Активен
@@ -86,7 +68,7 @@
     </div>
     <div class="row" style="margin-top: 10px;">
         <div class="col-md-12">
-            <input type='hidden' name='do' value='blogAdd'>
+            <input type='hidden' name='do' value='videoblogAdd'>
             <button type="submit" class="btn btn-default">Сохранить</button>
         </div>
     </div>
