@@ -1,0 +1,17 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www.jeisport.local [NC]
+RewriteRule ^(.*)$ http://jeisport.local/$1 [R=301,L]
+
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php/$0 [PT,L]
+
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^www\.sparta\.kg$
+RewriteCond %{HTTP_HOST} (www\.)?(.*)\.sparta\.kg$
+RewriteCond %{REQUEST_URI} !fitnes-club/
+RewriteRule ^(.*)$ fitnes-club/%2/$1
+
+AddDefaultCharset utf-8

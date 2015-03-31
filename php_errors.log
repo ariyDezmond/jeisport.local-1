@@ -1,0 +1,299 @@
+[23-Mar-2015 14:50:27 UTC] PHP Fatal error:  Call to undefined method Categories_model::get_sports() in Z:\home\jeisport.local\www\application\controllers\admin\points.php on line 170
+[23-Mar-2015 15:18:50 UTC] PHP Fatal error:  Call to a member function create_links() on a non-object in Z:\home\jeisport.local\www\application\views\admin\pages\points\points.php on line 66
+[23-Mar-2015 15:53:47 UTC] PHP Parse error:  syntax error, unexpected '<' in Z:\home\jeisport.local\www\application\controllers\admin\points.php on line 37
+[24-Mar-2015 03:38:45 UTC] PHP Fatal error:  Call to a member function create_links() on a non-object in Z:\home\jeisport.local\www\application\views\admin\pages\points\points.php on line 4
+[24-Mar-2015 03:44:00 UTC] PHP Fatal error:  Call to a member function create_links() on a non-object in Z:\home\jeisport.local\www\application\views\admin\pages\points\points.php on line 4
+[24-Mar-2015 03:44:03 UTC] PHP Fatal error:  Call to a member function create_links() on a non-object in Z:\home\jeisport.local\www\application\views\admin\pages\points\points.php on line 4
+[24-Mar-2015 03:44:57 UTC] PHP Fatal error:  Call to a member function create_links() on a non-object in Z:\home\jeisport.local\www\application\views\admin\pages\points\points.php on line 4
+[24-Mar-2015 03:46:09 UTC] PHP Fatal error:  Call to a member function create_links() on a non-object in Z:\home\jeisport.local\www\application\views\admin\pages\points\points.php on line 4
+[24-Mar-2015 03:46:10 UTC] PHP Fatal error:  Call to a member function create_links() on a non-object in Z:\home\jeisport.local\www\application\views\admin\pages\points\points.php on line 4
+[24-Mar-2015 03:47:24 UTC] PHP Fatal error:  Can't use method return value in write context in Z:\home\jeisport.local\www\application\views\admin\pages\points\points.php on line 4
+[24-Mar-2015 03:48:13 UTC] PHP Fatal error:  Call to a member function create_links() on a non-object in Z:\home\jeisport.local\www\application\views\admin\pages\points\points.php on line 4
+[24-Mar-2015 03:48:17 UTC] PHP Fatal error:  Call to a member function create_links() on a non-object in Z:\home\jeisport.local\www\application\views\admin\pages\points\points.php on line 5
+[24-Mar-2015 03:48:19 UTC] PHP Fatal error:  Call to a member function create_links() on a non-object in Z:\home\jeisport.local\www\application\views\admin\pages\points\points.php on line 5
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:12:50 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:13:05 UTC] PHP Fatal error:  Call to undefined function getImage() in Z:\home\jeisport.local\www\resize_image.php on line 48
+[26-Mar-2015 06:13:19 UTC] PHP Warning:  getimagesize(/images/points/2e0f6fab16323115a7be7a0ffebc1d9b.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 4
+[26-Mar-2015 06:13:19 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 6
+[26-Mar-2015 06:13:19 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 7
+[26-Mar-2015 06:13:19 UTC] PHP Fatal error:  Call to undefined function imagecreatefromjpg() in Z:\home\jeisport.local\www\resize_image.php on line 24
+[26-Mar-2015 06:13:39 UTC] PHP Warning:  getimagesize(/images/points/2e0f6fab16323115a7be7a0ffebc1d9b.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 4
+[26-Mar-2015 06:13:39 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 6
+[26-Mar-2015 06:13:39 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 7
+[26-Mar-2015 06:13:39 UTC] PHP Fatal error:  Call to undefined function imagecreatefromjpg() in Z:\home\jeisport.local\www\resize_image.php on line 24
+[26-Mar-2015 06:14:16 UTC] PHP Warning:  getimagesize(/images/points/2e0f6fab16323115a7be7a0ffebc1d9b.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 4
+[26-Mar-2015 06:14:16 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 6
+[26-Mar-2015 06:14:16 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 7
+[26-Mar-2015 06:14:16 UTC] PHP Fatal error:  Call to undefined function imagecreatefromjpg() in Z:\home\jeisport.local\www\resize_image.php on line 24
+[26-Mar-2015 06:14:40 UTC] PHP Fatal error:  Call to undefined function base_url() in Z:\home\jeisport.local\www\resize_image.php on line 4
+[26-Mar-2015 06:14:47 UTC] PHP Warning:  getimagesize(/images/points/2e0f6fab16323115a7be7a0ffebc1d9b.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 4
+[26-Mar-2015 06:14:47 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 6
+[26-Mar-2015 06:14:47 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 7
+[26-Mar-2015 06:14:47 UTC] PHP Fatal error:  Call to undefined function imagecreatefromjpg() in Z:\home\jeisport.local\www\resize_image.php on line 24
+[26-Mar-2015 06:15:32 UTC] PHP Warning:  getimagesize(/images/points/2e0f6fab16323115a7be7a0ffebc1d9b.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 4
+[26-Mar-2015 06:15:32 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 6
+[26-Mar-2015 06:15:32 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 7
+[26-Mar-2015 06:15:32 UTC] PHP Fatal error:  Call to undefined function imagecreatefromjpg() in Z:\home\jeisport.local\www\resize_image.php on line 24
+[26-Mar-2015 06:15:33 UTC] PHP Warning:  getimagesize(/images/points/2e0f6fab16323115a7be7a0ffebc1d9b.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 4
+[26-Mar-2015 06:15:33 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 6
+[26-Mar-2015 06:15:33 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 7
+[26-Mar-2015 06:15:33 UTC] PHP Fatal error:  Call to undefined function imagecreatefromjpg() in Z:\home\jeisport.local\www\resize_image.php on line 24
+[26-Mar-2015 06:15:50 UTC] PHP Warning:  Missing argument 2 for image_thumb(), called in Z:\home\jeisport.local\www\resize_image.php on line 46 and defined in Z:\home\jeisport.local\www\resize_image.php on line 3
+[26-Mar-2015 06:15:50 UTC] PHP Warning:  Missing argument 3 for image_thumb(), called in Z:\home\jeisport.local\www\resize_image.php on line 46 and defined in Z:\home\jeisport.local\www\resize_image.php on line 3
+[26-Mar-2015 06:15:50 UTC] PHP Warning:  getimagesize(1) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 4
+[26-Mar-2015 06:15:50 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 6
+[26-Mar-2015 06:15:50 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 7
+[26-Mar-2015 06:15:50 UTC] PHP Fatal error:  Call to undefined function imagecreatefromjpg() in Z:\home\jeisport.local\www\resize_image.php on line 24
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/2e0f6fab16323115a7be7a0ffebc1d9b.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/aacdab92e1adb398423ce3ccb2daad68.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/a5bfccb8b0d607a6b7eeeac95da2f32d.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/c724e61f27f7cf4bbab241b59e6fcb14.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/29019c3fb3280f9dc7a0dc5d3a080035.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/5343640fb759d18a60b93c5e39807dd5.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/599e16bf7b346a0de793aba81cbe8629.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/ead382aaca0e5453ea14ec51901adf38.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/9fdcd99ccc9a7e6035b6104383087de3.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/bdf17fc8f9c8957768e3a9b4fc18d8c2.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/2e0f6fab16323115a7be7a0ffebc1d9b.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/aacdab92e1adb398423ce3ccb2daad68.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/a5bfccb8b0d607a6b7eeeac95da2f32d.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/c724e61f27f7cf4bbab241b59e6fcb14.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/29019c3fb3280f9dc7a0dc5d3a080035.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/5343640fb759d18a60b93c5e39807dd5.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/9fdcd99ccc9a7e6035b6104383087de3.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/599e16bf7b346a0de793aba81cbe8629.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/ead382aaca0e5453ea14ec51901adf38.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:10 UTC] PHP Warning:  getimagesize(/images/points/bdf17fc8f9c8957768e3a9b4fc18d8c2.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:34:21 UTC] PHP Warning:  getimagesize(/images/points/2e0f6fab16323115a7be7a0ffebc1d9b.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 06:37:16 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 18
+[26-Mar-2015 06:37:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:18) in Z:\home\jeisport.local\www\resize_image.php on line 57
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 34
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 35
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 51
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:34) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 34
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 35
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 34
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 35
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 34
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 35
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 51
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:34) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 51
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:34) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 57
+[26-Mar-2015 08:25:03 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 51
+[26-Mar-2015 08:25:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:34) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:25:03 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:25:03 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 34
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 34
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 35
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 35
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 34
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 35
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 34
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 35
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 51
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:34) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 51
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:34) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 51
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:34) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 57
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 51
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:34) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:25:05 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:25:07 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:25:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 57
+[26-Mar-2015 08:25:13 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 34
+[26-Mar-2015 08:25:13 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 35
+[26-Mar-2015 08:25:13 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 34
+[26-Mar-2015 08:25:13 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 35
+[26-Mar-2015 08:25:13 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 51
+[26-Mar-2015 08:25:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:34) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:25:13 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:25:13 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:25:13 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:25:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 57
+[26-Mar-2015 08:25:14 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 51
+[26-Mar-2015 08:25:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:34) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:25:14 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:25:14 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:25:31 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 34
+[26-Mar-2015 08:25:31 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 35
+[26-Mar-2015 08:25:31 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 51
+[26-Mar-2015 08:25:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:34) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:25:31 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:25:31 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:25:36 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 34
+[26-Mar-2015 08:25:36 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 35
+[26-Mar-2015 08:25:36 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 51
+[26-Mar-2015 08:25:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:34) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:25:36 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:25:36 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:28:00 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:00 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:00 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:00 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:28:00 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:28:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 57
+[26-Mar-2015 08:28:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:28:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:28:03 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:03 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:03 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:03 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:28:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:28:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:28:03 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 57
+[26-Mar-2015 08:28:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:28:05 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 57
+[26-Mar-2015 08:28:12 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:12 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:12 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 57
+[26-Mar-2015 08:28:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:28:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:28:20 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 34
+[26-Mar-2015 08:28:20 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 35
+[26-Mar-2015 08:28:20 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 51
+[26-Mar-2015 08:28:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:34) in Z:\home\jeisport.local\www\resize_image.php on line 55
+[26-Mar-2015 08:28:20 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:28:20 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:28:28 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 57
+[26-Mar-2015 08:28:28 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 57
+[26-Mar-2015 08:28:34 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 16
+[26-Mar-2015 08:28:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:16) in Z:\home\jeisport.local\www\resize_image.php on line 57
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 23
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 41
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 42
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 58
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:23) in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 76
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 23
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 41
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 42
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 23
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 41
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 42
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 58
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:23) in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 76
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 58
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:23) in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 76
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 23
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 41
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 42
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 58
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:71) in Z:\home\jeisport.local\www\resize_image.php on line 64
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagegif() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 71
+[26-Mar-2015 08:36:55 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 76
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 23
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 23
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 41
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 41
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 42
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 23
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 41
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 42
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 42
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 58
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:23) in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 76
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 58
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:23) in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 76
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 58
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:23) in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 76
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 23
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 41
+[26-Mar-2015 08:36:56 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 42
+[26-Mar-2015 08:36:57 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 23
+[26-Mar-2015 08:36:57 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 41
+[26-Mar-2015 08:36:57 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 42
+[26-Mar-2015 08:36:57 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 58
+[26-Mar-2015 08:36:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:71) in Z:\home\jeisport.local\www\resize_image.php on line 64
+[26-Mar-2015 08:36:57 UTC] PHP Warning:  imagegif() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 71
+[26-Mar-2015 08:36:57 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 76
+[26-Mar-2015 08:36:57 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 58
+[26-Mar-2015 08:36:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:69) in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:36:57 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:36:57 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 76
+[26-Mar-2015 08:36:58 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 23
+[26-Mar-2015 08:36:58 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 41
+[26-Mar-2015 08:36:58 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 42
+[26-Mar-2015 08:36:59 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 58
+[26-Mar-2015 08:36:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:69) in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:36:59 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:36:59 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 76
+[26-Mar-2015 08:37:01 UTC] PHP Warning:  Division by zero in Z:\home\jeisport.local\www\resize_image.php on line 23
+[26-Mar-2015 08:37:01 UTC] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in Z:\home\jeisport.local\www\resize_image.php on line 41
+[26-Mar-2015 08:37:01 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 42
+[26-Mar-2015 08:37:01 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 58
+[26-Mar-2015 08:37:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at Z:\home\jeisport.local\www\resize_image.php:23) in Z:\home\jeisport.local\www\resize_image.php on line 62
+[26-Mar-2015 08:37:01 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 69
+[26-Mar-2015 08:37:01 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in Z:\home\jeisport.local\www\resize_image.php on line 76
+[26-Mar-2015 11:31:44 UTC] PHP Warning:  getimagesize(images/points/&lt;div style=) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: Invalid argument in Z:\home\jeisport.local\www\resize_image.php on line 26
+[26-Mar-2015 11:31:44 UTC] PHP Warning:  getimagesize(images/points/&lt;div style=) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: Invalid argument in Z:\home\jeisport.local\www\resize_image.php on line 26
+[28-Mar-2015 13:00:01 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::order() in Z:\home\jeisport.local\www\application\models\admin\banners_model.php on line 53
+[28-Mar-2015 13:00:10 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::order() in Z:\home\jeisport.local\www\application\models\admin\banners_model.php on line 53
+[29-Mar-2015 07:15:50 UTC] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in Z:\home\jeisport.local\www\system\libraries\Form_validation.php on line 435
+[29-Mar-2015 07:16:46 UTC] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in Z:\home\jeisport.local\www\system\libraries\Form_validation.php on line 435
+[29-Mar-2015 07:17:00 UTC] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in Z:\home\jeisport.local\www\system\libraries\Form_validation.php on line 435
+[29-Mar-2015 07:39:27 UTC] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in Z:\home\jeisport.local\www\system\libraries\Form_validation.php on line 435
+[29-Mar-2015 07:40:58 UTC] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in Z:\home\jeisport.local\www\system\libraries\Form_validation.php on line 435
+[29-Mar-2015 07:41:11 UTC] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in Z:\home\jeisport.local\www\system\libraries\Form_validation.php on line 435
+[29-Mar-2015 07:41:58 UTC] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in Z:\home\jeisport.local\www\system\libraries\Form_validation.php on line 435
+[29-Mar-2015 07:42:27 UTC] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in Z:\home\jeisport.local\www\system\libraries\Form_validation.php on line 435
+[29-Mar-2015 07:42:29 UTC] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in Z:\home\jeisport.local\www\system\libraries\Form_validation.php on line 435
+[29-Mar-2015 07:42:47 UTC] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in Z:\home\jeisport.local\www\system\libraries\Form_validation.php on line 435

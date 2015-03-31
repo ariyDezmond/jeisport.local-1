@@ -1,0 +1,380 @@
+.sport-point-page {
+  position: relative;
+  width: 100%;
+  clear: both;
+  h1 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "RBCGROTESK-LIGHT";
+	color: #3e3e3e;
+	padding: 35px 100px;
+  }
+  .point-map-block {
+	position: relative;
+	width: 100%;
+	height: auto;
+	a.show-map {
+	  position: relative;
+	  display: block;
+	  width: 410px;
+	  height: 40px;
+	  margin: 0 auto;
+	  line-height: 40px;
+	  text-align: center;
+	  font-size: 24px;
+	  color: #fff;
+	  background: #00a68e;
+	  text-decoration: none;
+	  font-family: "RBCGROTESK-REGULAR";
+	  border-radius: 5px 5px 0 0;
+	}
+	#point-map {
+	  position: relative;
+	  width: 100%;
+	  float: left;
+	  height: 0;
+	  background: #fff;
+	  border-top: solid 8px #068674;
+	  border-bottom: solid 8px #068674;
+	  transition: height linear .4s;
+	  -moz-transition: height linear .4s;
+	  &.active {
+		height: 400px;
+	  }
+	}
+  }
+  .halls-block {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	margin: 50px 0 25px;
+	p.point-title {
+	  position: relative;
+	  display: block;
+	  float: left;
+	  width: 485px;
+	  height: 50px;
+	  margin-right: 500px;
+	  border-radius: 5px 5px 0 0;
+	  background: #00a68e;
+	  color: #fff;
+	  text-align: center;
+	  line-height: 50px;
+	  font-size: 24px;
+	  font-family: "Champagne-Limousines";
+	}
+	.halls-items {
+	  position: relative;
+	  float: left;
+	  min-height: 300px;
+	  height: auto;
+	  padding: 0 5px;
+	  background: #fff;
+	  color: #3e3e3e;
+	  .hall-item {
+		position: relative;
+		float: left;
+		width: 320px;
+		height: 320px;
+		margin: 5px;
+		img {
+		  float: left;
+		  width: 320px;
+		  height: 180px;
+		}
+		.title {
+		  width: 100%;
+		  float: left;
+		  font-size: 20px;
+		  text-align: center;
+		  font-family: "RBCGROTESK-LIGHT";
+		  margin: 10px 0;
+		}
+		.desc {
+		  width: 100%;
+		  float: left;
+		  font-size: 14px;
+		  color: #000000;
+		}
+		.reed-more {
+		  position: absolute;
+		  display: block;
+		  clear: both;
+		  width: 92px;
+		  height: 20px;
+		  bottom: 20px;
+		  left: 50%;
+		  margin-left: -46px;
+		  text-align: center;
+		  color: #fff;
+		  text-decoration: none;
+		  border-radius: 5px;
+		  line-height: 20px;
+		  font-size: 14px;
+		  font-family: "RBCGROTESK-LIGHT";
+		  background: #00a68e;
+		}
+	  }
+	}
+  }
+  .point-description-block {
+	position: relative;
+	width: 100%;
+	height: 955px;
+	margin: 25px 0;
+	.point-images-block {
+	  position: relative;
+	  float: left;
+	  width: 480px;
+	  height: 465px;
+	  background: #cdcdcd;
+	  a {
+		img {
+		  position: relative;
+		  width: 147px;
+		  height: 85px;
+		  margin: 5px;
+		}
+		&:first-child {
+		  img {
+			width: 480px;
+			height: 265px;
+			margin: 0;
+		  }
+		}
+	  }
+	}
+	.point-contacts-block {
+	  position: relative;
+	  float: left;
+	  width: 445px;
+	  height: 230px;
+	  margin-left: 35px;
+	  color: #3e3e3e;
+	  font-family: "RBCGROTESK-LIGHT";
+	  padding: 20px;
+	  background: #fff;
+	  p {
+		font-size: 16px;
+		line-height: 26px;
+	  }
+	  .metro {
+		position: relative;
+		width: 100%;
+		height: 30px;
+		.metro-item {
+		  position: relative;
+		  width: 157px;
+		  height: 30px;
+		  padding: 0 15px 0 0;
+		  float: left;
+		  line-height: 30px;
+		  img {
+			position: relative;
+			float: left;
+			margin: 5px 10px 5px 0;
+		  }
+		  p {
+			position: relative;
+			float: left;
+			line-height: 30px;
+		  }
+		}
+	  }
+	}
+	.point-form-block {
+	  position: relative;
+	  float: left;
+	  width: 485px;
+	  height: 180px;
+	  margin: 15px 0 0 35px;
+	  background: #fff;
+	  p {
+		position: relative;
+		display: block;
+		width: 400px;
+		margin: 20px auto;
+		font-size: 18px;
+		color: #3e3e3e;
+		text-align: center;
+		font-family: "RBCGROTESK-REGULAR";
+	  }
+	  .popup-form {
+		position: relative;
+		display: block;
+		width: 200px;
+		height: 50px;
+		font-size: 24px;
+		background: #d54040;
+		text-decoration: none;
+		color: #fff;
+		text-align: center;
+		line-height: 50px;
+		margin: 0 auto;
+		font-weight: 100;
+		border-radius: 10px;
+		font-family: "Champagne-Limousines";
+	  }
+	}
+	.point-inner-description-block {
+	  position: relative;
+	  float: left;
+	  width: 100%;
+	  height: auto;
+	  .point-inner-header {
+		position: relative;
+		float: left;
+		width: 100%;
+		height: 70px;
+		p.point-title {
+		  position: relative;
+		  display: block;
+		  float: right;
+		  margin-top: 20px;
+		  width: 485px;
+		  height: 50px;
+		  border-radius: 5px 5px 0 0;
+		  background: #00a68e;
+		  color: #fff;
+		  text-align: center;
+		  line-height: 50px;
+		  font-size: 24px;
+		  font-family: "Champagne-Limousines";
+		}
+	  }
+	  .point-inner-body {
+		position: relative;
+		float: left;
+		width: 940px;
+		height: auto;
+		padding: 10px 30px;
+		background: #fff;
+		p {
+		  font-size: 14px;
+		  font-family: "RBCGROTESK-LIGHT";
+		  color: #000000;
+		  line-height: 16px;
+		  margin: 5px 0;
+
+		}
+		ul{
+		  list-style-type: circle;
+		  margin-left: 25px;
+		  font-size: 14px;
+		  font-family: "RBCGROTESK-LIGHT";
+		  color: #000000;
+		  line-height: 16px;
+
+		}
+	  }
+	}
+  }
+  .point-trainers-block {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 250px;
+	margin-top: 25px;
+	p.point-title {
+	  position: relative;
+	  display: block;
+	  float: left;
+	  width: 485px;
+	  height: 50px;
+	  margin-right: 500px;
+	  border-radius: 5px 5px 0 0;
+	  background: #00a68e;
+	  color: #fff;
+	  text-align: center;
+	  line-height: 50px;
+	  font-size: 24px;
+	  font-family: "Champagne-Limousines";
+	}
+	.inner-trainers-block {
+	  position: relative;
+	  float: left;
+	  width: 1000px;
+	  background: #fff;
+	  ul.trainers-items {
+		margin-top: 25px;
+		li {
+		  position: relative;
+		  display: inline-block;
+		  a {
+			position: relative;
+			display: block;
+			width: 185px;
+			height: 170px;
+			font-size: 14px;
+			padding: 3px 5px;
+			color: #5c5c5c;
+			text-align: center;
+			text-decoration: none;
+			img {
+			  width: 185px;
+			  height: 105px;
+			}
+		  }
+		}
+	  }
+	  .bx-prev {
+		position: absolute;
+		width: 24px;
+		height: 30px;
+		top: 70px;
+		margin-left: -30px;
+		text-indent: -9999px;
+		background: url("../img/prev-bt.png") no-repeat;
+	  }
+	  .bx-next {
+		position: absolute;
+		width: 24px;
+		height: 30px;
+		top: 70px;
+		margin-left: 920px;
+		text-indent: -9999px;
+		background: url("../img/next-bt.png") no-repeat;
+	  }
+	}
+  }
+  .point-schedule-block {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 250px;
+	margin: 25px 0;
+	padding-bottom: 50px;
+	p.point-title {
+	  position: relative;
+	  display: block;
+	  float: left;
+	  width: 485px;
+	  height: 50px;
+	  margin-right: 500px;
+	  border-radius: 5px 5px 0 0;
+	  background: #00a68e;
+	  color: #fff;
+	  text-align: center;
+	  line-height: 50px;
+	  font-size: 24px;
+	  font-family: "Champagne-Limousines";
+	}
+	.inner-schedule-block {
+	  position: relative;
+	  float: left;
+	  padding: 10px 20px;
+	  width: 960px;
+	  min-height: 200px;
+	  height: auto;
+	  background: #fff;
+	  ul {
+		float: left;
+		margin: 10px 20px;
+		li {
+		  font-size: 16px;
+		  line-height: 20px;
+		}
+	  }
+	}
+  }
+}

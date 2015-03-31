@@ -1,0 +1,17 @@
+//Reset all styles
+@import "reset";
+
+//Include fonts
+@import "fonts";
+
+//Main style file
+@import "main";
+
+//All styles files
+@import "pages/front-page";
+@import "pages/category-page";
+@import "pages/news-page";
+@import "pages/points-page";
+@import "pages/contact-page";
+@import "pages/sport-point-page";
+@import "pages/search-page";
